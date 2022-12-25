@@ -197,7 +197,7 @@ def TS_univariate():
                     
                     
                     st.pyplot(fig)
-                    fig1 = plt.figure()
+                    fig1 = plt.figure(figsize=(16, 14))
                     ax = pred_Arma.plot(label='observed')
                     ax.fill_between(predarma_ci.index,predarma_ci.iloc[:, 0],predarma_ci.iloc[:, 1], color='k', alpha=.45)
                     st.pyplot(fig1)
