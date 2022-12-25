@@ -145,7 +145,7 @@ def page_introduction():
     with feature5:
         st.image(image3, use_column_width=True)
     with feature6:
-        st.warning('multivariate time series model')
+        st.warning('Multivariate time series model')
         st.info("""
                 The multivariate time series model contains four types of models:
                 - The vector autoregressive model
