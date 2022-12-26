@@ -117,7 +117,7 @@ def page_fit():
     # Get the Sample file from App GitHub repository
     try:
         if download_sample:
-            st.markdown(""" [Download](https://raw.githubusercontent.com/AhlASSANI/Forecasting_Application_Streamlit/main/AUD_currency.csv)""")            
+            st.markdown(""" [Download](https://github.com/AhlASSANI/Forecasting_Application_Streamlit/blob/main/AUD_currency.xls)""")            
             st.markdown("""**after you download data, 
                         upload them above.*""")
 
