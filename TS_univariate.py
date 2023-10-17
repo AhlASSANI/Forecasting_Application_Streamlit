@@ -215,8 +215,8 @@ def TS_univariate():
                 y_n = st.sidebar.selectbox('Endogeneous Variable', options=numeric_columns)
                 y=df[y_n]
                 st.sidebar.markdown("# Design of the model")
-                lags = st.sidebar.slider("The order of the AR componen", min_value=1,max_value=50,value=1)
-                Mags = st.sidebar.slider("The order of the AR componen", min_value=0,max_value=50,value=0)
+                lags = st.sidebar.slider("The order of the AR component", min_value=1,max_value=50,value=1)
+                Mags = st.sidebar.slider("The order of the MA component", min_value=0,max_value=50,value=0)
                 Dags = st.sidebar.slider("The value of the integration component", min_value=0,max_value=50,value=0)
             
                 if st.checkbox("Estimate the model"):
